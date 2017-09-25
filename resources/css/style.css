@@ -37,7 +37,7 @@ header img {
 }
 
 .main-banner {
-    background-image: url('/resources/images/moto.jpeg');
+    background-image: url('./resources/images/moto.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
