@@ -171,6 +171,7 @@ footer {
     .products,
     .business-info {
         flex-wrap: wrap;
+        width: 90%;
     }
 
     .product {
