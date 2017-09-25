@@ -79,6 +79,7 @@ nav ul {
 .products,
 .business-info {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     margin: 3em 0 0 0;
 }
@@ -121,6 +122,7 @@ nav ul {
 
 footer {
     background-color: black;
+    display: flex;
     color: white;
     padding: 5em 0;
     margin-top: 4em;
@@ -147,6 +149,10 @@ footer {
     .product.glasses {
         display: none;
     }
+
+    .container {
+        width: 100%
+    }
 }
 
 @media only screen and (max-width: 470px) {
@@ -155,9 +161,11 @@ footer {
     }
   
     .headline {
-      width: 100%;
       padding: 1em 2em;
-      top: 10em;
+    }
+
+    .container {
+        width: 100%;
     }
   
     .headline h4 {
@@ -190,5 +198,6 @@ footer {
 
     footer {
         text-align: center;
+        width: 100%;
     }
   } 
